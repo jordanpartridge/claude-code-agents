@@ -126,3 +126,14 @@ labels:
     - "area:ui"
     - "area:infra"
 ```
+
+## Jira Integration
+
+```yaml
+jira:
+  enabled: true
+  base_url: https://company.atlassian.net
+  project_keys:
+    - PSTRAX
+    - PROJ
+```
