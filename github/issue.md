@@ -128,7 +128,10 @@ Additional context or constraints.
 - `status:blocked` - Waiting on something
 - `status:review` - Ready for review
 
-### Category Labels (for Jordan's repos)
+### Category Labels
+Category labels can be customized per repository. See user-config.md for available category labels.
+
+Default category labels:
 - `area:auth` - Authentication related
 - `area:api` - API changes
 - `area:ui` - Frontend/UI
@@ -180,7 +183,7 @@ After issue operations:
 - area:auth
 
 ### Assigned To
-@jordanpartridge
+@<username>
 
 ### Linked Issues
 Related to #42 (auth refactor)
